@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-    min-height: 100vh;
+  min-height: 100vh;
 
   max-width: 80ch;
   padding: 1rem;
@@ -62,17 +62,22 @@ nav {
 @media screen and (max-width: 636px) {
   body {
     width: 100%;
-
   }
 }
 
 .content {
-    flex: 1;
+  flex: 1;
 }
 
 .footer {
-        margin-top: auto;
+  margin-top: auto;
+}
 
+.project {
+  background-color: #3f3f46;
+  padding: 10px;
+  text-decoration: none;
+  color: white; 
 }
 
 html.dark {
@@ -85,5 +90,5 @@ html.dark {
 }
 
 .dark .logo {
-    color: #fff;
+  color: #fff;
 }
